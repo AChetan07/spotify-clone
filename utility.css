@@ -1,0 +1,47 @@
+.border{
+border: 2px solid black;
+
+}
+
+.flex{
+    display:flex
+}
+
+justify-ceneter{
+    justify-content: center;
+}
+
+items-center{
+    align-items: center;
+}
+.rounded{
+    border-radius: 7px;
+}
+
+.mar{
+margin: 5px;
+}
+.p-1{
+    padding: 10px;
+}
+
+
+
+/* For WebKit based browsers */
+::-webkit-scrollbar {
+    width: 12px; /* width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #333; /* background color of the track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #666; /* color of the scrollbar thumb */
+    border-radius: 6px; /* rounded corners */
+  }
+  
+  /* For Firefox */
+  scrollbar-width : thin;
+  scrollbar-color : #666 #333;
+  
